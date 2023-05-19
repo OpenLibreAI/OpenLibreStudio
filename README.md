@@ -3,6 +3,13 @@
 ## Description
 Frontend for OpenLibreAI.
 
+
+## Development
+
+```
+npm run dev
+```
+
 ## Scaffolding
 
 ```
