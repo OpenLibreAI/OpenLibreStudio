@@ -1,1 +1,1 @@
-<h1>Welcome to OpenLibreStudio</h1>
+<h1></h1>
