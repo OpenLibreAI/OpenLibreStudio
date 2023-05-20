@@ -69,9 +69,13 @@ Stuck? Visit us at https://svelte.dev/chat
 
 ## Steps for Skeleton
 
-``
+```
 npm i @skeletonlabs/skeleton --save-dev
 ```
+
+
+## TDD
+OpenLibreStudio aims to follow TDD best practices. 
 
 
 ## Snippets
