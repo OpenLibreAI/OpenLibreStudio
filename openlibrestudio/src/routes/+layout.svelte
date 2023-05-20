@@ -23,7 +23,7 @@
 				<strong class="text-xl">OpenLibreAI Studio</strong>
 			</svelte:fragment>
 			<svelte:fragment slot="trail">
-				<a class="btn btn-sm variant-ghost-surface" href="" rel="noreferrer">
+				<a class="btn btn-sm variant-ghost-surface" href="/dashboard" rel="noreferrer">
 					Dashboard
 				</a>
 				<a class="btn btn-sm variant-ghost-surface" href="" rel="noreferrer">
