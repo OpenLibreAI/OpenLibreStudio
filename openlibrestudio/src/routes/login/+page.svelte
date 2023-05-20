@@ -4,17 +4,14 @@
 
 <Authenticate />
 
-<div class="container w-full max-w-xs mx-auto flex justify-center items-center">
+<div id="authContainer" class="container h-full mx-auto flex justify-center items-center">
 	<form>
 		<div class="space-y-10 text-center flex flex-col items-center">
 			<h2 class="h2 pt-4">Please Login</h2>
 
-			<div class="flex justify-center space-x-2">
-				<input class="input variant-form-material" type="text" placeholder="Email" />
-			</div>
-			<div class="flex justify-center space-x-2">
-				<input class="input variant-form-material" type="text" placeholder="Password" />
-			</div>
+            <label for="email-address" class="sr-only">Email address</label>
+            <input id="email-address" name="email" type="email" autocomplete="email" required class="min-w-0 flex-auto rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-white sm:text-sm sm:leading-6" placeholder="Enter your email">
+            <input id="email-address" name="password" type="password" required class="min-w-0 flex-auto rounded-md border-0 bg-white/5 px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-white sm:text-sm sm:leading-6" placeholder="Enter your email">
 			<a class="btn variant-filled" href="#" target="_blank" rel="noreferrer"> Login </a>
 
 			<div class="space-y-2" />
@@ -24,34 +21,20 @@
 </div>
 
 <style lang="postcss">
-	figure {
-		@apply flex relative flex-col;
-	}
-	figure svg,
-	.img-bg {
-		@apply w-64 h-64 md:w-80 md:h-80;
-	}
-	.img-bg {
-		@apply absolute z-[-1] rounded-full blur-[50px] transition-all;
-		animation: pulse 5s cubic-bezier(0, 0, 0, 0.5) infinite, glow 5s linear infinite;
-	}
-	@keyframes glow {
-		0% {
-			@apply bg-primary-400/50;
-		}
-		33% {
-			@apply bg-secondary-400/50;
-		}
-		66% {
-			@apply bg-tertiary-400/50;
-		}
-		100% {
-			@apply bg-primary-400/50;
-		}
-	}
-	@keyframes pulse {
-		50% {
-			transform: scale(1.5);
-		}
-	}
+    #authContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex: 1;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        width: 400px;
+        max-width: 100%;
+        margin: 0 auto;
+    }
 </style>
