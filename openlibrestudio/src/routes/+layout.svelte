@@ -3,7 +3,7 @@
 
 	// Your selected Skeleton theme:
 	import '@skeletonlabs/skeleton/themes/theme-skeleton.css';
-    // import '@skeletonlabs/skeleton/themes/theme-rocket.css';
+	// import '@skeletonlabs/skeleton/themes/theme-rocket.css';
 
 	// This contains the bulk of Skeletons required styles:
 	// NOTE: this will be renamed skeleton.css in the v2.x release.
@@ -11,11 +11,52 @@
 
 	// Finally, your application's global stylesheet (sometimes labeled 'app.css')
 	import '../app.postcss';
+	import { AppShell, AppBar } from '@skeletonlabs/skeleton';
 </script>
 
-<div class="mainContainer">
+<!-- App Shell -->
+<AppShell>
+	<svelte:fragment slot="header">
+		<!-- App Bar -->
+		<AppBar>
+			<svelte:fragment slot="lead">
+				<strong class="text-xl">OpenLibreAI Studio</strong>
+			</svelte:fragment>
+			<svelte:fragment slot="trail">
+				<a class="btn btn-sm variant-ghost-surface" href="" target="_blank" rel="noreferrer">
+					Dashboard
+				</a>
+				<a class="btn btn-sm variant-ghost-surface" href="" target="_blank" rel="noreferrer">
+					Chat
+				</a>
+				<a class="btn btn-sm variant-ghost-surface" href="#" target="_blank" rel="noreferrer">
+					Models
+				</a>
+				<a class="btn btn-sm variant-ghost-surface" href="#" target="_blank" rel="noreferrer">
+					Datasets
+				</a>
+
+				<a class="btn btn-sm variant-ghost-surface" href="#" target="_blank" rel="noreferrer">
+					Datasets
+				</a>
+
+				<a class="btn btn-sm variant-ghost-surface" href="#" target="_blank" rel="noreferrer">
+					Integrations
+				</a>
+
+				<a class="btn btn-sm variant-ghost-surface" href="#" target="_blank" rel="noreferrer">
+					Deployments
+				</a>
+
+                <a class="btn btn-sm variant-ghost-surface" href="#" target="_blank" rel="noreferrer">
+					API
+				</a>
+			</svelte:fragment>
+		</AppBar>
+	</svelte:fragment>
+	<!-- Page Route Content -->
 	<slot />
-</div>
+</AppShell>
 
 <style>
 </style>

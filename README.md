@@ -68,3 +68,13 @@ Stuck? Visit us at https://svelte.dev/chat
 ``
 npm i @skeletonlabs/skeleton --save-dev
 ```
+
+
+## Snippets
+
+```
+			<p>Snippets</p>
+			<p><code class="code">/src/routes/+layout.svelte</code></p>
+			<p><code class="code">/src/routes/+page.svelte</code></p>
+
+```
