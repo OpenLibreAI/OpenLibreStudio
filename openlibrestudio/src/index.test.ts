@@ -1,4 +1,4 @@
-import { describe, it, expect } from 'vitest';
+import { describe, it, expect, toBe } from 'vitest';
 import { formatCurrency } from './lib/formatCurrency';
 
 describe('sum test', () => {
@@ -11,5 +11,5 @@ describe('sum test', () => {
 it('adds the $ sign before the given number', () => {
     const result = formatCurrency(10)
 
-    expect(result).toBe('$1')
+    expect(result).toBe('$10')
 })
