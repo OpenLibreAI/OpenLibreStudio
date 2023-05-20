@@ -1,5 +1,16 @@
 <script>
 	import '../app.postcss';
+
+	// Your selected Skeleton theme:
+	import '@skeletonlabs/skeleton/themes/theme-skeleton.css';
+    // import '@skeletonlabs/skeleton/themes/theme-rocket.css';
+
+	// This contains the bulk of Skeletons required styles:
+	// NOTE: this will be renamed skeleton.css in the v2.x release.
+	import '@skeletonlabs/skeleton/styles/skeleton.css';
+
+	// Finally, your application's global stylesheet (sometimes labeled 'app.css')
+	import '../app.postcss';
 </script>
 
 <div class="mainContainer">
@@ -7,12 +18,4 @@
 </div>
 
 <style>
-	.mainContainer {
-		min-height: 100vh;
-		background: radial-gradient(
-			circle 1215px at 23.4% -21.8%,
-			rgba(9, 29, 85, 1) 0.2%,
-			rgba(0, 0, 0, 1) 200.2%
-		);
-	}
 </style>
