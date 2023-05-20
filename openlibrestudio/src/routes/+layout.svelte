@@ -20,7 +20,7 @@
 		<!-- App Bar -->
 		<AppBar>
 			<svelte:fragment slot="lead">
-				<strong class="text-xl">OpenLibreAI Studio</strong>
+				<strong class="text-xl">OpenLibreAI </strong>
 			</svelte:fragment>
 			<svelte:fragment slot="trail">
 				<a class="btn btn-sm variant-ghost-surface" href="/dashboard" rel="noreferrer">
