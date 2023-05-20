@@ -75,7 +75,7 @@ npm i @skeletonlabs/skeleton --save-dev
 
 
 ## Contribution and TDD Guidelines
-OpenLibreStudio aims to follow TDD best practices. Please ensure that all tests pass on your local topic branch before submitting a PR.
+OpenLibreStudio aims to follow TDD best practices to ensure code quality and product quality. Please ensure that all tests pass on your local topic branch before submitting a PR.
 
 To run the tests, run:
 
