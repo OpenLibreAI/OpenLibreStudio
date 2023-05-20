@@ -61,3 +61,10 @@ To close the dev server, hit Ctrl-C
 
 Stuck? Visit us at https://svelte.dev/chat
 ```
+
+
+## Steps for Skeleton
+
+``
+npm i @skeletonlabs/skeleton --save-dev
+```
