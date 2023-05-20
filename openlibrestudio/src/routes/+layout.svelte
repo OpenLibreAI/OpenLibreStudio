@@ -37,7 +37,7 @@
 				</a>
 
 				<a class="btn btn-sm variant-ghost-surface" href="#" rel="noreferrer">
-					Datasets
+                    Solutions
 				</a>
 
 				<a class="btn btn-sm variant-ghost-surface" href="#" rel="noreferrer">
