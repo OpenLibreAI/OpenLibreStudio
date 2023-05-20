@@ -27,6 +27,7 @@
         align-items: center;
         justify-content: center;
         flex: 1;
+        padding: 24px
     }
 
     form {
