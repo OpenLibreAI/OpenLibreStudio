@@ -23,11 +23,11 @@
 				<strong class="text-xl">OpenLibreAI </strong>
 			</svelte:fragment>
 			<svelte:fragment slot="trail">
-				<a class="btn btn-sm variant-ghost-surface" href="/dashboard" rel="noreferrer">
-					Dashboard
+				<a class="btn btn-sm variant-ghost-surface" href="/" rel="noreferrer">
+					Home
 				</a>
 				<a class="btn btn-sm variant-ghost-surface" href="" rel="noreferrer">
-					Chat
+					Dashboard
 				</a>
 				<a class="btn btn-sm variant-ghost-surface" href="#" rel="noreferrer">
 					Models
@@ -50,6 +50,9 @@
 
                 <a class="btn btn-sm variant-ghost-surface" href="#" rel="noreferrer">
 					API
+				</a>
+                <a class="btn btn-sm variant-ghost-surface" href="/login" rel="noreferrer">
+                    Login
 				</a>
 			</svelte:fragment>
 		</AppBar>
