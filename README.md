@@ -5,7 +5,7 @@ Frontend for OpenLibreAI.
 
 ## Screenshots
 
-<img width="600" alt="screenshot" src="https://raw.githubusercontent.com/OpenLibreAI/OpenLibreStudio/develop/screenshots/screenshot_1.png">
+<img width="800" alt="screenshot" src="https://raw.githubusercontent.com/OpenLibreAI/OpenLibreStudio/develop/screenshots/screenshot_2.png">
 
 
 ## Development
