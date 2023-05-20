@@ -23,32 +23,32 @@
 				<strong class="text-xl">OpenLibreAI Studio</strong>
 			</svelte:fragment>
 			<svelte:fragment slot="trail">
-				<a class="btn btn-sm variant-ghost-surface" href="" target="_blank" rel="noreferrer">
+				<a class="btn btn-sm variant-ghost-surface" href="" rel="noreferrer">
 					Dashboard
 				</a>
-				<a class="btn btn-sm variant-ghost-surface" href="" target="_blank" rel="noreferrer">
+				<a class="btn btn-sm variant-ghost-surface" href="" rel="noreferrer">
 					Chat
 				</a>
-				<a class="btn btn-sm variant-ghost-surface" href="#" target="_blank" rel="noreferrer">
+				<a class="btn btn-sm variant-ghost-surface" href="#" rel="noreferrer">
 					Models
 				</a>
-				<a class="btn btn-sm variant-ghost-surface" href="#" target="_blank" rel="noreferrer">
+				<a class="btn btn-sm variant-ghost-surface" href="#" rel="noreferrer">
 					Datasets
 				</a>
 
-				<a class="btn btn-sm variant-ghost-surface" href="#" target="_blank" rel="noreferrer">
+				<a class="btn btn-sm variant-ghost-surface" href="#" rel="noreferrer">
 					Datasets
 				</a>
 
-				<a class="btn btn-sm variant-ghost-surface" href="#" target="_blank" rel="noreferrer">
+				<a class="btn btn-sm variant-ghost-surface" href="#" rel="noreferrer">
 					Integrations
 				</a>
 
-				<a class="btn btn-sm variant-ghost-surface" href="#" target="_blank" rel="noreferrer">
+				<a class="btn btn-sm variant-ghost-surface" href="#" rel="noreferrer">
 					Deployments
 				</a>
 
-                <a class="btn btn-sm variant-ghost-surface" href="#" target="_blank" rel="noreferrer">
+                <a class="btn btn-sm variant-ghost-surface" href="#" rel="noreferrer">
 					API
 				</a>
 			</svelte:fragment>
